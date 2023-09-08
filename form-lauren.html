@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hispanic Scholar Fund Capstone Project</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <script defer src="form-lauren.js"></script>
+</head>
+<body>
+    <nav class="topnav">
+        <a class="active logo" href="./home-lychia.html">
+            <img src="https://www.hsf.net/static/logo-tagline-en-92e5363214939adcdc9289e06ac3918a.jpg" alt="Logo" class="logo">
+        </a>
+        <a class="home-button" href="./home-lychia.html">Home</a>
+        <a href="./about-virginia.html">About</a>
+        <a href="./form-lauren.html">Form</a>
+        <a href="https://fundraise.givesmart.com/form/VlFz-g?vid=10ji7u" target="Donate" class="nav-links">Donate</a>
+    </nav>
+    <section class="form">
+     
+        <div class="content">
+            <h1>Contact Us</h1>
+       
+           <form name="contactForm" onsubmit="return validateForm();" action="submit.php" method="post">
+          
+            <div id="form" class="form">
+              <div class="form-container"> 
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" placeholder="Enter Your First Name" id="firstname" name="firstname"required> <span class="error"></span><br> 
+
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text" placeholder="Enter Your Last Name" id="lastname" name="lastname" required><span class="error"></span><br><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="Enter Your Email" id="email" name="email" required><span class="error"></span><br><br>
+
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" placeholder="Enter Your Phone Number" id="phone" name="phone" required><span class="error"></span><br><br>
+
+                    <span>Message</span><br>
+                    <textarea placeholder="Enter Your Message" id="message" rows="4"></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+                <div id="sucess-message" style="display: none;">
+                <p> Thank you for your submission! We will get back to you soon.</p></div>
+            
+            </div>
+        </div>
+    </section>
+</body>
+    <footer>
+        <a href="https://www.facebook.com/HispanicScholarshipFund" target="_blank" class="facebook-icon">Facebook</a>
+        <a href="https://twitter.com/HSFNews" target="_blank" class="twitter-icon">Twitter</a>
+        <a href="https://www.linkedin.com/company/hispanic-scholarship-fund/" target="_blank" class="linkedin-icon">LinkedIn</a>
+        <a href="https://www.youtube.com/user/HSFvideos" target="_blank" class="youtube-icon">YouTube</a>
+        <a href="https://www.instagram.com/hsfphotos/" target="_blank" class="instagram-icon">Instagram</a>
+        <div class="footer-content">
+            <p>&copy; 2023 Hispanic Scholarship Fund</p>
+            <div class="footer-links">
+                <a href="https://www.hsf.net/privacy-policy">Privacy Policy</a>
+                <a href="https://www.hsf.net/terms-of-use">Terms of Service</a>
+            </div>
+        </div>
+        <br><br>
+        Algo Angels' capstone project<br>
+        Last updated - 09/06/23 -
+    </footer>
+</html>
